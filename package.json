@@ -6,11 +6,17 @@
   "repository": "https://github.com/sloped/connermccall.com-nodejs.git",
   "dependencies": {
     "express": "^4.10.4",
-    "sqlite3": "^3.0.4"
+    "sqlite3": "^3.0.4",
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "debug": "~2.0.0",
+    "hjs": "~0.0.6"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+"start": "node ./bin/www"
   },
   "author": "Conner McCall <conner@connermccall.com>",
   "license": "MIT"
