@@ -1,0 +1,17 @@
+{
+  "name": "connermccall.com",
+  "version": "0.0.1",
+  "description": "Node Site for connermccall.com",
+  "main": "index.js",
+  "repository": "https://github.com/sloped/connermccall.com-nodejs.git",
+  "dependencies": {
+    "express": "^4.10.4",
+    "sqlite3": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Conner McCall <conner@connermccall.com>",
+  "license": "MIT"
+}
